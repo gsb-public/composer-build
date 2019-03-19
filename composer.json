@@ -80,6 +80,17 @@
         "drupal/link": "1.6",
         "drupal/token": "1.5",
         "drupal/addthis": "4.0-alpha6",
+        "drupal/custom_add_another": "1.0",
+        "drupal/date": "2.10",
+        "drupal/date_popup_authored": "1.2",
+        "drupal/defaultconfig": "1.0-alpha11",
+        "drupal/defaultcontent": "1.0-alpha9",
+        "drupal/devel": "1.5",
+        "drupal/devel_form_debug": "1.0",
+        "drupal/diff": "3.3",
+        "drupal/drafty": "1.0-rc1",
+        "drupal/ds": "2.15",
+        "drupal/elysia_cron": "2.4",
         "drush/drush": "^8.0",
         "symfony/filesystem": "~2.7|^3",
         "webflo/drupal-finder": "^1.0.0"
@@ -144,6 +155,13 @@
                "1901106": "https://www.drupal.org/files/issues/1901106-ctools-views_content-override-ajax-35.patch",
                "1907256": "https://www.drupal.org/files/issues/ctools-modal-1907256-8.patch",
                "2032293": "https://www.drupal.org/files/issues/2032293-32-against-1910608-36-2.patch"
+            },  
+            "drupal/defaultconfig": {
+               "1912312": "https://drupal.org/files/defaultconfig-remove-notice-1912312.patch"
+            },
+            "drupal/defaultcontent": {
+               "1754428": "https://drupal.org/files/1754428-allow-node-export-alter.patch",
+               "1757782": "https://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch"
             }  
         },
         "preserve-paths": [
