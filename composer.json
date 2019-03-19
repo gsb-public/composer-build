@@ -1,0 +1,153 @@
+{
+    "name": "drupal-composer/drupal-project",
+    "description": "Project template for Drupal 7 projects with composer",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/7"
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_box",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_box.git",
+                   "reference": "1.07"
+               }
+           }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/alumni_cas_auth",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/alumni_cas_auth.git",
+                   "reference": "release-6.09"
+               }
+           }
+        }       
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-pdo": "*",
+        "ext-xml": "*",
+        "composer/installers": "^1.2",
+        "composer/semver": "^1.4",
+        "cweagans/composer-patches": "^1.6.5",
+        "drupal-composer/preserve-paths": "^0.1",
+        "drupal/drupal": "^7.64",
+        "drupal/alumni_cas_auth": "dev-custom", 
+        "drupal/acquia_connector": "3.4",
+        "drupal/acquia_purge": "1.3",
+        "drupal/addressfield": "1.2",
+        "drupal/admin_menu": "3.0-rc5",
+        "drupal/admin_views": "1.6",
+        "drupal/auto_entitylabel": "1.4",
+        "drupal/agenda": "2.0-beta2",   
+        "drupal/backports": "1.0-alpha1",
+        "drupal/backup_migrate": "2.8",
+        "drupal/better_exposed_filters": "3.5",
+        "drupal/better_formats": "1.0-beta2",
+        "drupal/breadcrumbs_by_path": "1.0-alpha13",
+        "drupal/breakpoints": "1.6",   
+        "drupal/cacheexclude": "2.3",
+        "drupal/captcha": "1.5",
+        "drupal/cdn": "2.9",
+        "drupal/checkall": "1.0",
+        "drupal/cmis": "1.7",
+        "drupal/composer_manager": "1.8",
+        "drupal/computed_field": "1.1",
+        "drupal/ctools": "1.12",     
+        "drupal/gsb_box": "dev-custom",
+        "drupal/link": "1.6",
+        "drupal/token": "1.5",
+        "drupal/addthis": "4.0-alpha6",
+        "drush/drush": "^8.0",
+        "symfony/filesystem": "~2.7|^3",
+        "webflo/drupal-finder": "^1.0.0"
+    },
+    "conflict": {
+        "drupal/core": "8.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-create-project-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::removeInternalFiles"
+        ]
+    },
+    "extra": {
+        "installer-paths": {
+            "web/": ["type:drupal-core"],
+            "web/profiles/{$name}/": ["type:drupal-profile"],
+            "web/sites/all/drush/{$name}/": ["type:drupal-drush"],
+            "web/profiles/gsb_public/libraries/{$name}/": ["type:drupal-library"],
+            "web/profiles/gsb_public/modules/contrib/{$name}/": ["type:drupal-module"],
+            "web/profiles/gsb_public/themes/contrib/{$name}/": ["type:drupal-theme"],
+            "web/profiles/gsb_public/modules/custom/{$name}/": ["type:drupal-custom-module"],
+            "web/profiles/gsb_public/themes/custom/{$name}/": ["type:drupal-custom-theme"]
+        },
+        "patches": {
+            "cweagans/composer-patches": {
+                "Call the preserve paths hooks" : "https://github.com/SebCorbin/composer-patches/commit/1cb9bacba51f8bba0c5f3f322c3bb61e4ceae974.patch"
+            },
+            "drupal/link": {
+               "2693731": "https://www.drupal.org/files/issues/2019-02-26/link_title_token_replace_when_enabled_2693731-1.patch",
+               "981404": "https://drupal.org/files/link-981404-21.patch"
+            },
+            "drupal/breadcrumbs_by_path": {
+               "2039191": "https://drupal.org/files/breadcrumbs_by_patch-2039191-2.patch",
+               "2415403": "https://drupal.org/files/issues/breadcrumbs_by_path_patch-2415403-2.patch"
+            },
+            "drupal/cmis": {
+               "2174487": "https://drupal.org/files/issues/cmis_patch-2174487-1.patch"
+            },   
+            "drupal/ctools": {
+               "1901106": "https://www.drupal.org/files/issues/1901106-ctools-views_content-override-ajax-35.patch",
+               "1907256": "https://www.drupal.org/files/issues/ctools-modal-1907256-8.patch",
+               "2032293": "https://www.drupal.org/files/issues/2032293-32-against-1910608-36-2.patch"
+            }  
+        },
+        "preserve-paths": [
+            "web/sites"
+        ]
+    }
+}
