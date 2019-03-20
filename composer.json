@@ -134,6 +134,21 @@
         "drupal/maxlength": "3.2", 
         "drupal/markup": "1.2", 
         "drupal/markdown": "1.5", 
+        "drupal/media": "2.0-alpha3", 
+        "drupal/media_youtube": "3.7", 
+        "drupal/media_vimeo": "2.1", 
+        "drupal/memcache": "1.6", 
+        "drupal/menu_attributes": "1.0",  
+        "drupal/menu_block": "2.7", 
+        "drupal/menu_import": "1.7",
+        "drupal/menu_minipanels": "1.1", 
+        "drupal/menu_position": "1.2", 
+        "drupal/menu_token": "1.0-beta7", 
+        "drupal/menu_trail_by_path": "3.3", 
+        "drupal/metatag": "1.22", 
+        "drupal/mimemail": "1.1", 
+        "drupal/module_filter": "2.1", 
+        "drupal/multiple_fields_remove_button": "1.5", 
         "drupal/gsb_box": "dev-custom",
         "drupal/link": "1.6",
         "drupal/token": "1.5",
@@ -234,7 +249,24 @@
             },  
             "drupal/field_group": {
                "2576311": "https://www.drupal.org/files/issues/field_group-2576311-2.patch"
-            }  
+            }, 
+            "drupal/media": {
+               "1931336": "https://drupal.org/files/1931336-d7-4.patch",
+               "1934226": "https://drupal.org/files/1934226-d7-2.patch",
+               "media-addjs": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/WPBQA-262/media-addjs.patch",
+               "2067063": "https://www.drupal.org/files/media-wysiwyg-broken-2067063-138_0.patch"
+            },
+            "drupal/media_vimeo": {
+               "2446199": "https://www.drupal.org/files/issues/no_exception_handling-2446199-2.patch"
+            },
+            "drupal/memcache": {
+               "3000323": "https://www.drupal.org/files/issues/2018-10-04/memcache-3000323-3.patch",
+               "3000330": "https://www.drupal.org/files/issues/2018-09-17/memcache-3000330-1.patch"
+            },
+            "drupal/menu_minipanels": {
+               "1977018": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/menu_minipanels_1977018-d7-2.patch",
+               "2713749": "https://www.drupal.org/files/issues/menu_minipanels-2713749-1.patch"
+            }
         },
         "preserve-paths": [
             "web/sites"
