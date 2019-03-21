@@ -127,6 +127,44 @@
                     "type": "zip"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "longbill/jquery-date-range-picker",
+                "version": "master",
+                "type": "drupal-library", 
+                "dist": {
+                    "url": "https://github.com/longbill/jquery-date-range-picker/archive/master.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wenzhixin/multiple-select",
+                "version": "1.1.0",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/wenzhixin/multiple-select.git",
+                   "type": "git",
+                   "reference": "1.1.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mptre/php-soundcloud",
+                "version": "v2.3.2",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/mptre/php-soundcloud.git",
+                   "type": "git",
+                   "reference": "v2.3.2"
+                }
+            }
         }
     ],
     "require": {
@@ -276,12 +314,15 @@
         "fancyapps/fancyBox": "^2.1",
         "google/google-api-php-client": "1.1.6",
         "jurrick/jquery-multicheckbox": "1.0.0",
+        "longbill/jquery-date-range-picker": "master",
         "mailchimp/mailchimp-api-php": "master",
         "metafizzy/isotope": "master",
+        "mptre/php-soundcloud": "^2.3",
         "samsono/easyResponsiveTabs": "master",
         "symfony/filesystem": "~2.7|^3",
         "tuupola/jquery_lazyload": "1.9.5",
-        "webflo/drupal-finder": "^1.0.0"
+        "webflo/drupal-finder": "^1.0.0",
+        "wenzhixin/multiple-select": "^1.1"
     },
     "conflict": {
         "drupal/core": "8.*"
