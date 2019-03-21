@@ -102,6 +102,31 @@
                    "reference": "1.0.0"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "tuupola/jquery_lazyload",
+                "version": "1.9.5",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/tuupola/jquery_lazyload.git",
+                   "type": "git",
+                   "reference": "1.9.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mailchimp/mailchimp-api-php",
+                "version": "master",
+                "type": "drupal-library", 
+                "dist": {
+                    "url": "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
@@ -249,11 +274,13 @@
         "drupal/youtube_api": "1.0-beta3",
         "drush/drush": "^8.0",
         "fancyapps/fancyBox": "^2.1",
-        "google/google-api-php-client": "^1.1",
-        "jurrick/jquery-multicheckbox": "^1.0",
+        "google/google-api-php-client": "1.1.6",
+        "jurrick/jquery-multicheckbox": "1.0.0",
+        "mailchimp/mailchimp-api-php": "master",
         "metafizzy/isotope": "master",
         "samsono/easyResponsiveTabs": "master",
         "symfony/filesystem": "~2.7|^3",
+        "tuupola/jquery_lazyload": "1.9.5",
         "webflo/drupal-finder": "^1.0.0"
     },
     "conflict": {
