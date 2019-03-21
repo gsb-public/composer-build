@@ -166,9 +166,30 @@
         "drupal/print": "2.0",
         "drupal/recaptcha": "2.2",
         "drupal/respondjs": "1.2",
+        "drupal/search_krumo": "1.6", 
+        "drupal/securepages": "1.0-beta2", 
+        "drupal/select_or_other": "2.24", 
+        "drupal/site_verify": "1.2", 
+        "drupal/smart_trim": "1.5", 
+        "drupal/stage_file_proxy": "1.8-rc1",
+        "drupal/strongarm": "2.0", 
+        "drupal/submit_field": "1.4", 
+        "drupal/tb_megamenu": "1.0-rc2", 
+        "drupal/telephone": "1.0-alpha1", 
+        "drupal/tinypng_image_action": "1.1", 
+        "drupal/transliteration": "3.2", 
+        "drupal/token": "1.7", 
+        "drupal/typogrify": "1.0-rc10", 
+        "drupal/tzfield": "1.1", 
+        "drupal/uuid": "1.2", 
+        "drupal/video_embed_field": "2.0-beta11", 
+        "drupal/views": "3.16", 
+        "drupal/views_autocomplete_filters": "1.2", 
+        "drupal/views_bulk_operations": "3.4", 
+        "drupal/views_field_view": "1.2", 
+        "drupal/views_flipped_table": "1.1", 
         "drupal/gsb_box": "dev-custom",
         "drupal/link": "1.6",
-        "drupal/token": "1.5",
         "drush/drush": "^8.0",
         "metafizzy/isotope": "master",
         "symfony/filesystem": "~2.7|^3",
@@ -283,6 +304,17 @@
             "drupal/menu_minipanels": {
                "1977018": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/menu_minipanels_1977018-d7-2.patch",
                "2713749": "https://www.drupal.org/files/issues/menu_minipanels-2713749-1.patch"
+            },
+            "drupal/tinypng_image_action": {
+               "2775719": "https://www.drupal.org/files/issues/tinypng_image_action-2775719-4.patch"
+            },
+            "drupal/views": {
+               "2947022": "https://www.drupal.org/files/issues/views-2947022-1.patch",
+               "1916814": "https://drupal.org/files/1916814-d7-1.patch",
+               "867786": "https://drupal.org/files/867786-views_path-3.patch"
+            },
+            "drupal/views_autocomplete_filters": {
+               "2493069": "https://www.drupal.org/files/issues/views_autocomplete_filters-2493069-1.patch"
             }
         },
         "preserve-paths": [
