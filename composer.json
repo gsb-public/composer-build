@@ -74,7 +74,33 @@
                    "url": "https://github.com/fancyapps/fancybox.git",
                    "type": "git",
                    "reference": "v2.1.4"
-               }
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+               "name": "google/google-api-php-client",
+               "version": "1.1.6",
+               "type": "drupal-library",
+               "source": {
+                   "url": "https://github.com/google/google-api-php-client.git",
+                   "type": "git",
+                   "reference": "1.1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+               "name": "jurrick/jquery-multicheckbox",
+               "version": "1.0.0",
+               "type": "drupal-library",
+               "source": {
+                   "url": "https://github.com/jurrick/jquery-multicheckbox.git",
+                   "type": "git",
+                   "reference": "1.0.0"
+                }
             }
         }
     ],
@@ -223,6 +249,8 @@
         "drupal/youtube_api": "1.0-beta3",
         "drush/drush": "^8.0",
         "fancyapps/fancyBox": "^2.1",
+        "google/google-api-php-client": "^1.1",
+        "jurrick/jquery-multicheckbox": "^1.0",
         "metafizzy/isotope": "master",
         "samsono/easyResponsiveTabs": "master",
         "symfony/filesystem": "~2.7|^3",
