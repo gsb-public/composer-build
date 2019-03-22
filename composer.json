@@ -165,6 +165,82 @@
                    "reference": "v2.3.2"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "gsb-public/php-cvent",
+                "version": "5.16",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/gsb-public/php-cvent.git",
+                   "type": "git",
+                   "reference": "5.16"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "scottjehl/respondjs",
+                "version": "master",
+                "type": "drupal-library", 
+                "dist": {
+                    "url": "https://github.com/scottjehl/Respond/tarball/master",
+                    "type": "gzip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "xdamman/selection-sharer",
+                "version": "v0.0.15",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/xdamman/selection-sharer",
+                   "type": "git",
+                   "reference": "v0.0.15"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "garand/sticky-master",
+                "version": "1.0.1",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/garand/sticky.git",
+                   "type": "git",
+                   "reference": "1.0.1"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "themattharris/tmhOAuth",
+                "version": "0.8.2",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/themattharris/tmhOAuth.git",
+                   "type": "git",
+                   "reference": "0.8.2"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wkhtmltopdf/wkhtmltopdf",
+                "version": "master",
+                "type": "drupal-library", 
+                "dist": {
+                    "url": "https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.3.2.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
@@ -312,17 +388,22 @@
         "drupal/youtube_api": "1.0-beta3",
         "drush/drush": "^8.0",
         "fancyapps/fancyBox": "^2.1",
+        "garand/sticky-master": "^1.0",
         "google/google-api-php-client": "1.1.6",
+        "gsb-public/php-cvent": "^5.16",
         "jurrick/jquery-multicheckbox": "1.0.0",
         "longbill/jquery-date-range-picker": "master",
         "mailchimp/mailchimp-api-php": "master",
         "metafizzy/isotope": "master",
         "mptre/php-soundcloud": "^2.3",
         "samsono/easyResponsiveTabs": "master",
+        "scottjehl/respondjs": "master",
         "symfony/filesystem": "~2.7|^3",
+        "themattharris/tmhOAuth": "^0.8.4",
         "tuupola/jquery_lazyload": "1.9.5",
         "webflo/drupal-finder": "^1.0.0",
-        "wenzhixin/multiple-select": "^1.1"
+        "wenzhixin/multiple-select": "^1.1",
+        "xdamman/selection-sharer": "^0.0.15"
     },
     "conflict": {
         "drupal/core": "8.*"
