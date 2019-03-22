@@ -56,19 +56,6 @@
         {
            "type": "package",
            "package": {
-               "name": "drupal/gsb_box",
-               "version": "dev-custom",
-               "type": "drupal-custom-module",
-               "source": {
-                   "type": "git",
-                   "url": "git@github.com:gsb-public/gsb_box.git",
-                   "reference": "1.07"
-               }
-            }
-        },
-        {
-           "type": "package",
-           "package": {
                "name": "drupal/alumni_cas_auth",
                "version": "dev-custom",
                "type": "drupal-custom-module",
@@ -182,7 +169,293 @@
                    "reference": "3.1"
                }
             }
-        },    
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_az_filter",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_az_filter.git",
+                   "reference": "3.03"
+               }
+            }
+        }, 
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_agenda",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_agenda.git",
+                   "reference": "3.1"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_box",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_box.git",
+                   "reference": "1.07"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_cmis_api",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_cmis_api.git",
+                   "reference": "3.1"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_cmis",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_cmis.git",
+                   "reference": "release-5.06"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_connecting_link",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_connecting_link.git",
+                   "reference": "5.04"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_content_pane_info",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_content_pane_info.git",
+                   "reference": "5.15"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_coveo_search",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_coveo_search.git",
+                   "reference": "1.02"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_custom_section_title",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_custom_section_title.git",
+                   "reference": "1.0.1"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_public_custom_blocks",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_public_custom_blocks.git",
+                   "reference": "release-6.35"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_custom_breadcrumbs",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_custom_breadcrumbs.git",
+                   "reference": "1.00"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_cvent",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_cvent.git",
+                   "reference": "5.18"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_entity_reference_delete_warning",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_entity_reference_delete_warning.git",
+                   "reference": "5.18"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_dvent",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_dvent.git",
+                   "reference": "1.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_faculty_role",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_faculty_role.git",
+                   "reference": "3.5"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_field_authors",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_field_authors.git",
+                   "reference": "3.5"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_field_formatter",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_field_formatter.git",
+                   "reference": "6.12"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_filtered_view_link",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_filtered_view_link.git",
+                   "reference": "5.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_filter_with_states",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_filter_with_states.git",
+                   "reference": "6.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_fpp_customization",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_fpp_customization.git",
+                   "reference": "5.13"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_fpp_stock_content",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_fpp_stock_content.git",
+                   "reference": "3.0"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_fpp_xray",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_fpp_xray.git",
+                   "reference": "3.04"
+               }
+            }
+        },
         {
            "type": "package",
            "package": {
@@ -526,8 +799,29 @@
         "drupal/gsb_academic_year": "dev-custom",
         "drupal/gsb_acquia_tokens": "dev-custom",
         "drupal/gsb_advanced_menu_customization": "dev-custom",
+        "drupal/gsb_agenda": "dev-custom",
         "drupal/gsb_auto_upload_file": "dev-custom",
+        "drupal/gsb_az_filter": "dev-custom",
         "drupal/gsb_box": "dev-custom",
+        "drupal/gsb_cmis": "dev-custom",
+        "drupal/gsb_cmis_api": "dev-custom",
+        "drupal/gsb_connecting_link": "dev-custom",
+        "drupal/gsb_content_pane_info": "dev-custom",
+        "drupal/gsb_coveo_search": "dev-custom",
+        "drupal/gsb_custom_breadcrumbs": "dev-custom",
+        "drupal/gsb_custom_section_title": "dev-custom",
+        "drupal/gsb_cvent": "dev-custom",
+        "drupal/gsb_dvent": "dev-custom",
+        "drupal/gsb_entity_reference_delete_warning": "dev-custom",
+        "drupal/gsb_faculty_role": "dev-custom",
+        "drupal/gsb_field_authors": "dev-custom",
+        "drupal/gsb_field_formatter": "dev-custom",
+        "drupal/gsb_filter_with_states": "dev-custom",
+        "drupal/gsb_filtered_view_link": "dev-custom",
+        "drupal/gsb_fpp_customization": "dev-custom",
+        "drupal/gsb_fpp_stock_content": "dev-custom",
+        "drupal/gsb_fpp_xray": "dev-custom",
+        "drupal/gsb_public_custom_blocks": "dev-custom",
         "drupal/hierarchical_select": "3.0-beta9",
         "drupal/hs_lite": "dev-1.x#d2168",
         "drupal/image_captcha_refresh": "1.6",
