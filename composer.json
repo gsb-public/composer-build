@@ -15,6 +15,45 @@
             "url": "https://packages.drupal.org/7"
         },
         {
+            "type": "package",
+            "package": {
+                "name": "drupal/ctools_query_string_context",
+                "version": "dev-7.x",
+                "type": "drupal-module",
+                "source": {
+                    "url": "https://git.drupal.org/sandbox/balint.kleri/1442298.git",
+                    "type": "git",
+                    "reference": "dev-7.x"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "drupal/hs_lite",
+                "version": "dev-1.x",
+                "type": "drupal-module",
+                "source": {
+                    "url": "https://git.drupal.org/sandbox/gmercer/2296881.git",
+                    "type": "git",
+                    "reference": "dev-1.x"
+                }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/md_megamenu",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@bitbucket.org:stanfordgsb/md_megamenu.git",
+                   "reference": "1.00"
+               }
+            }
+        },
+        {
            "type": "package",
            "package": {
                "name": "drupal/gsb_box",
@@ -316,7 +355,9 @@
         "drupal/cmis": "1.7",
         "drupal/composer_manager": "1.8",
         "drupal/computed_field": "1.1",
+        "drupal/concat_field": "dev-1.x#450acb25",
         "drupal/ctools": "1.12",
+        "drupal/ctools_query_string_context": "dev-7.x#dc75839",
         "drupal/custom_add_another": "1.0",
         "drupal/date": "2.10",
         "drupal/date_popup_authored": "1.2",
@@ -336,6 +377,7 @@
         "drupal/entitycache": "1.5",
         "drupal/entityreference": "1.5",
         "drupal/entityreference_autocomplete": "1.11",
+        "drupal/eva": "dev-1.x#79a8ef",
         "drupal/expire": "2.0-rc4",
         "drupal/expire_panels": "1.0-beta2",
         "drupal/extended_block_visibility": "1.1",
@@ -348,10 +390,12 @@
         "drupal/field_group": "1.6",
         "drupal/fieldable_panels_panes": "1.10",
         "drupal/file_entity": "2.15",
+        "drupal/filefield_paths": "dev-1.x#8b39e73",
         "drupal/google_analytics": "2.4",
         "drupal/google_appliance_suggest": "1.6",
         "drupal/gsb_box": "dev-custom",
         "drupal/hierarchical_select": "3.0-beta9",
+        "drupal/hs_lite": "dev-1.x#d2168",
         "drupal/image_captcha_refresh": "1.6",
         "drupal/image_link_formatter": "1.1",
         "drupal/imagecache_actions": "1.8",
@@ -377,6 +421,7 @@
         "drupal/menu_token": "1.0-beta7",
         "drupal/menu_trail_by_path": "3.3",
         "drupal/metatag": "1.22",
+        "drupal/md_megamenu": "dev-custom",
         "drupal/mimemail": "1.1",
         "drupal/module_filter": "2.1",
         "drupal/multiple_fields_remove_button": "1.5",
@@ -396,6 +441,7 @@
         "drupal/pm_existing_pages": "1.4",
         "drupal/print": "2.0",
         "drupal/recaptcha": "2.2",
+        "drupal/redirect": "1.0-rc1",
         "drupal/respondjs": "1.2",
         "drupal/search_krumo": "1.6",
         "drupal/securepages": "1.0-beta2",
@@ -587,6 +633,20 @@
             "julienh/sharrre": {
                "296": "https://patch-diff.githubusercontent.com/raw/Julienh/Sharrre/pull/296.diff",
                "201": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.4.patch"
+            },
+            "drupal/eva": {
+               "1419328": "https://drupal.org/files/issues/eva-form-1419328-13.patch"
+            },
+            "drupal/concat_field": {
+               "2146169": "https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch",
+               "2476195": "https://drupal.org/files/issues/concat_field_patch-2476195-2.patch"
+            },
+            "drupal/filefield_paths": {
+               "1924686": "https://www.drupal.org/files/issues/filefield_paths_patch-9254679-1.patch",
+               "2103151": "https://www.drupal.org/files/issues/deprecated_e-2103151-32.patch"
+            },
+            "drupal/redirect": {
+               "1116408": "https://www.drupal.org/files/redirect-migrate-support-1116408-69.patch"
             }
         },
         "preserve-paths": [
