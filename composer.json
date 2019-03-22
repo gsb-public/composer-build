@@ -82,6 +82,110 @@
         {
            "type": "package",
            "package": {
+               "name": "drupal/feature_flag",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/feature_flag.git",
+                   "reference": "1.0"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/isotopify",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/isotopify.git",
+                   "reference": "6.20"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/resources",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/resources.git",
+                   "reference": "6.02"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/soundcloud_api",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/soundcloud_api.git",
+                   "reference": "5.12"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_acquia_tokens",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_acquia_tokens.git",
+                   "reference": "1.0"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_academic_year",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_academic_year.git",
+                   "reference": "1.0"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_advanced_menu_customization",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_advanced_menu_customization.git",
+                   "reference": "1.0"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_auto_upload_file",
+               "version": "dev-custom",
+               "type": "drupal-custom-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_auto_upload_file.git",
+                   "reference": "3.1"
+               }
+            }
+        },    
+        {
+           "type": "package",
+           "package": {
                "name": "drupal/webform_to_gdocs",
                "version": "6.02",
                "type": "drupal-module",
@@ -408,6 +512,7 @@
         "drupal/extended_block_visibility": "1.1",
         "drupal/fancybox": "2.0-beta6",
         "drupal/fape": "1.2",
+        "drupal/feature_flag": "dev-custom",
         "drupal/features": "2.10",
         "drupal/ffc": "1.0-beta2",
         "drupal/field_collection": "1.0-beta12",
@@ -418,12 +523,17 @@
         "drupal/filefield_paths": "dev-1.x#8b39e73",
         "drupal/google_analytics": "2.4",
         "drupal/google_appliance_suggest": "1.6",
+        "drupal/gsb_academic_year": "dev-custom",
+        "drupal/gsb_acquia_tokens": "dev-custom",
+        "drupal/gsb_advanced_menu_customization": "dev-custom",
+        "drupal/gsb_auto_upload_file": "dev-custom",
         "drupal/gsb_box": "dev-custom",
         "drupal/hierarchical_select": "3.0-beta9",
         "drupal/hs_lite": "dev-1.x#d2168",
         "drupal/image_captcha_refresh": "1.6",
         "drupal/image_link_formatter": "1.1",
         "drupal/imagecache_actions": "1.8",
+        "drupal/isotopify": "dev-custom",
         "drupal/jquery_update": "2.7",
         "drupal/kraken": "1.0-alpha3",
         "drupal/libraries": "2.3",
@@ -434,6 +544,7 @@
         "drupal/markdown": "1.5",
         "drupal/markup": "1.2",
         "drupal/maxlength": "3.2",
+        "drupal/md_megamenu": "dev-custom",
         "drupal/media": "2.0-alpha3",
         "drupal/media_vimeo": "2.1",
         "drupal/media_youtube": "3.7",
@@ -446,7 +557,6 @@
         "drupal/menu_token": "1.0-beta7",
         "drupal/menu_trail_by_path": "3.3",
         "drupal/metatag": "1.22",
-        "drupal/md_megamenu": "dev-custom",
         "drupal/mimemail": "1.1",
         "drupal/module_filter": "2.1",
         "drupal/multiple_fields_remove_button": "1.5",
@@ -467,12 +577,14 @@
         "drupal/print": "2.0",
         "drupal/recaptcha": "2.2",
         "drupal/redirect": "1.0-rc1",
+        "drupal/resources": "dev-custom",
         "drupal/respondjs": "1.2",
         "drupal/search_krumo": "1.6",
         "drupal/securepages": "1.0-beta2",
         "drupal/select_or_other": "2.24",
         "drupal/site_verify": "1.2",
         "drupal/smart_trim": "1.5",
+        "drupal/soundcloud_api": "dev-custom",
         "drupal/stackla": "1.x",
         "drupal/stage_file_proxy": "1.8-rc1",
         "drupal/strongarm": "2.0",
@@ -494,9 +606,9 @@
         "drupal/views_load_more": "1.5",
         "drupal/views_responsive_grid": "1.3",
         "drupal/views_xml_backend": "dev-1.x#9858ea6",
+        "drupal/webform_to_gdocs": "6.02",
         "drupal/workbench": "dev-1.x#6856e4a",
         "drupal/workbench_access": "1.5",
-        "drupal/webform_to_gdocs": "6.02",
         "drupal/workbench_moderation": "3.0",
         "drupal/xmlsitemap": "2.5",
         "drupal/youtube_api": "1.0-beta3",
