@@ -41,6 +41,19 @@
             }
         },
         {
+           "type": "package",
+           "package": {
+               "name": "drupal/webform_to_gdocs",
+               "version": "6.02",
+               "type": "drupal-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/webform_to_gdocs.git",
+                   "reference": "6.02"
+               }
+            }
+        },
+        {
             "type": "package",
             "package": {
                 "name": "metafizzy/isotope",
@@ -241,6 +254,32 @@
                     "type": "zip"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "zurb/responsive-tables",
+                "version": "master",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/zurb/responsive-tables.git",
+                   "type": "git",
+                   "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "julienh/sharrre",
+                "version": "2.0.1",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/Julienh/Sharrre.git",
+                   "type": "git",
+                   "reference": "2.0.1"
+                }
+            }
         }
     ],
     "require": {
@@ -382,7 +421,10 @@
         "drupal/views_flipped_table": "1.1",
         "drupal/views_load_more": "1.5",
         "drupal/views_responsive_grid": "1.3",
+        "drupal/views_xml_backend": "dev-1.x#9858ea6",
+        "drupal/workbench": "dev-1.x#6856e4a",
         "drupal/workbench_access": "1.5",
+        "drupal/webform_to_gdocs": "6.02",
         "drupal/workbench_moderation": "3.0",
         "drupal/xmlsitemap": "2.5",
         "drupal/youtube_api": "1.0-beta3",
@@ -391,6 +433,7 @@
         "garand/sticky-master": "^1.0",
         "google/google-api-php-client": "1.1.6",
         "gsb-public/php-cvent": "^5.16",
+        "julienh/sharrre": "^2.0",
         "jurrick/jquery-multicheckbox": "1.0.0",
         "longbill/jquery-date-range-picker": "master",
         "mailchimp/mailchimp-api-php": "master",
@@ -403,7 +446,8 @@
         "tuupola/jquery_lazyload": "1.9.5",
         "webflo/drupal-finder": "^1.0.0",
         "wenzhixin/multiple-select": "^1.1",
-        "xdamman/selection-sharer": "^0.0.15"
+        "xdamman/selection-sharer": "^0.0.15",
+        "zurb/responsive-tables": "dev-master#0d34bc64df"
     },
     "conflict": {
         "drupal/core": "8.*"
@@ -535,6 +579,14 @@
             },
             "drupal/workbench_moderation": {
                "2947038": "https://www.drupal.org/files/issues/workbench_moderation-2947038-1.patch"
+            },
+            "zurb/responsive-tables": {
+               "remove-table-styles": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/remove-table-styles.patch",
+               "drupalize-js": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/drupalize-js.patch"
+            },
+            "julienh/sharrre": {
+               "296": "https://patch-diff.githubusercontent.com/raw/Julienh/Sharrre/pull/296.diff",
+               "201": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.4.patch"
             }
         },
         "preserve-paths": [
