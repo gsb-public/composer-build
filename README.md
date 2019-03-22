@@ -20,3 +20,8 @@ cd gsb
 ```
 composer require
 ```
+
+## Known issues
+
+1) Library for scottjehl/respondjs is not unzipping the tar.gz file
+1) Libraries like themattharris/tmhOAuth which has a composer.json file is causing it to showup in the vendor directory. This doesn't match our current structure (profiles\gsb_public\libraries\tmhOAuth. 
