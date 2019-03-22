@@ -95,6 +95,31 @@
         {
             "type": "package",
             "package": {
+                "name": "kraken-io/kraken-php",
+                "version": "master",
+                "type": "drupal-library", 
+                "source": {
+                   "url": "https://github.com/kraken-io/kraken-php.git",
+                   "type": "git",
+                   "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "moment/moment",
+                "version": "master",
+                "type": "drupal-library", 
+                "dist": {
+                    "url": "https://github.com/moment/moment/archive/develop.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "metafizzy/isotope",
                 "version": "master",
                 "type": "drupal-library", 
@@ -448,6 +473,7 @@
         "drupal/select_or_other": "2.24",
         "drupal/site_verify": "1.2",
         "drupal/smart_trim": "1.5",
+        "drupal/stackla": "1.x",
         "drupal/stage_file_proxy": "1.8-rc1",
         "drupal/strongarm": "2.0",
         "drupal/submit_field": "1.4",
@@ -481,9 +507,11 @@
         "gsb-public/php-cvent": "^5.16",
         "julienh/sharrre": "^2.0",
         "jurrick/jquery-multicheckbox": "1.0.0",
+        "kraken-io/kraken-php": "master",
         "longbill/jquery-date-range-picker": "master",
         "mailchimp/mailchimp-api-php": "master",
         "metafizzy/isotope": "master",
+        "moment/moment": "master",
         "mptre/php-soundcloud": "^2.3",
         "samsono/easyResponsiveTabs": "master",
         "scottjehl/respondjs": "master",
