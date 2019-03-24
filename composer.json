@@ -1001,7 +1001,1217 @@
                    "reference": "5.18"
                }
             }
-        },                                                                                                    
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_book_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_book_display.git",
+                   "reference": "6.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_business_website_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_business_website_ct.git",
+                   "reference": "5.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_business_website_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_business_website_display.git",
+                   "reference": "5.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_case_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_case_ct.git",
+                   "reference": "6.07"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_case_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_case_display.git",
+                   "reference": "6.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_club_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_club_ct.git",
+                   "reference": "5.04"
+               }
+            }
+        },   
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_club_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_club_display.git",
+                   "reference": "6.03"
+               }
+            }
+        },
+
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_course_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_course_ct.git",
+                   "reference": "3.41"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_course_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_course_display.git",
+                   "reference": "3.4"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_cta",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_cta.git",
+                   "reference": "5.08"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_diptych_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_diptych_fpp.git",
+                   "reference": "4.04"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_ee_megamenu",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_ee_megamenu.git",
+                   "reference": "1.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_ee_program_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_ee_program_display.git",
+                   "reference": "1.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_event_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_event_ct.git",
+                   "reference": "5.18"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_event_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_event_display.git",
+                   "reference": "6.09"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_event_shared",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_event_shared.git",
+                   "reference": "5.19"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_existing_node_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_existing_node_fpp.git",
+                   "reference": "5.07"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_existing_node_list_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_existing_node_list_fpp.git",
+                   "reference": "5.15"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_faculty_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_faculty_ct.git",
+                   "reference": "5.31"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_faculty_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_faculty_display.git",
+                   "reference": "6.04"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_featured_content_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_featured_content_fpp.git",
+                   "reference": "5.12"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_featured_insight_card_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_featured_insight_card_fpp.git",
+                   "reference": "5.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_featured_person_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_featured_person_fpp.git",
+                   "reference": "3.0"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_file_types",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_file_types.git",
+                   "reference": "6.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_files_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_files_fpp.git",
+                   "reference": "5.04"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_google_tag_manager",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_google_tag_manager.git",
+                   "reference": "5.10"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_gsa_search",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_gsa_search.git",
+                   "reference": "6.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_homepage_cta_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_homepage_cta_fpp.git",
+                   "reference": "5.05"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_idea_story_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_idea_story_ct.git",
+                   "reference": "5.30"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_idea_story_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_idea_story_display.git",
+                   "reference": "5.07"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_image_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_image_fpp.git",
+                   "reference": "5.05"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_image_cta_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_image_cta_fpp.git",
+                   "reference": "5.07"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_image_styles",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_image_styles.git",
+                   "reference": "4.09"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_insight_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_insight_display.git",
+                   "reference": "4.02"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_insights_quote_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_insights_quote_fpp.git",
+                   "reference": "5.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_links_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_links_fpp.git",
+                   "reference": "4.06"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_quotes_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_quotes_fpp.git",
+                   "reference": "1.00"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_house_ads_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_house_ads_fpp.git",
+                   "reference": "5.05"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_landing_viewport_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_landing_viewport_fpp.git",
+                   "reference": "1.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_media_item_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_media_item_ct.git",
+                   "reference": "5.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_media_item_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_media_item_display.git",
+                   "reference": "4.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_mega_menu",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_mega_menu.git",
+                   "reference": "5.04"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_metatag",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_metatag.git",
+                   "reference": "4.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_mission_statement_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_mission_statement_fpp.git",
+                   "reference": "1.02"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_msx_fellows_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_msx_fellows_ct.git",
+                   "reference": "6.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_msx_fellows_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_msx_fellows_display.git",
+                   "reference": "6.04"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_news_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_news_display.git",
+                   "reference": "5.19"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_offsite_school_story_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_offsite_school_story_ct.git",
+                   "reference": "5.10"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_page_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_page_ct.git",
+                   "reference": "5.19"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_people_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_people_display.git",
+                   "reference": "3.1"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_people_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_people_fpp.git",
+                   "reference": "5.10"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_phd_candidate_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_phd_candidate_ct.git",
+                   "reference": "5.15"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_phd_candidate_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_phd_candidate_display.git",
+                   "reference": "6.0"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_pr_contact",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_pr_contact.git",
+                   "reference": "5.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_program_app_finder",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_program_app_finder.git",
+                   "reference": "1.05"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_program_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_program_ct.git",
+                   "reference": "6.34"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_program_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_program_display.git",
+                   "reference": "1.08"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_featured_program_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_featured_program_fpp.git",
+                   "reference": "1.06"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_program_finder_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_program_finder_display.git",
+                   "reference": "1.27"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_program_instance_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_program_instance_ct.git",
+                   "reference": "6.23"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_program_instance_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_program_instance_display.git",
+                   "reference": "6.15"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_programs_list_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_programs_list_fpp.git",
+                   "reference": "1.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_program_panelized_page_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_program_panelized_page_ct.git",
+                   "reference": "1.10"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_publication_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_publication_ct.git",
+                   "reference": "5.16"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_publication_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_publication_display.git",
+                   "reference": "6.05"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_ranking_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_ranking_ct.git",
+                   "reference": "5.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_ranking_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_ranking_display.git",
+                   "reference": "5.02"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_rss_feeds",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_rss_feeds.git",
+                   "reference": "5.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_seed_coach_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_seed_coach_ct.git",
+                   "reference": "1.05"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_seed_research_library_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_seed_research_library_ct.git",
+                   "reference": "1.06"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_seed_research_library_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_seed_research_library_display.git",
+                   "reference": "1.04"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_school_story_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_school_story_ct.git",
+                   "reference": "5.22"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_simplesaml",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_simplesaml.git",
+                   "reference": "1.21"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_social_feed",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_social_feed.git",
+                   "reference": "6.06"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_spotlight",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_spotlight.git",
+                   "reference": "5.05"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_slideshow_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_slideshow_fpp.git",
+                   "reference": "5.06"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_staff_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_staff_ct.git",
+                   "reference": "5.10"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_taxonomy",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_taxonomy.git",
+                   "reference": "5.07"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_toolbar",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_toolbar.git",
+                   "reference": "5.04"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_topic_teaser_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_topic_teaser_fpp.git",
+                   "reference": "5.02"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_text_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_text_fpp.git",
+                   "reference": "4.11"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_video",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_video.git",
+                   "reference": "4.02"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_videos_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_videos_fpp.git",
+                   "reference": "5.25"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_webform_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_webform_ct.git",
+                   "reference": "release-6.12"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_week_in_the_life_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_week_in_the_life_ct.git",
+                   "reference": "5.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_week_in_the_life_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_week_in_the_life_display.git",
+                   "reference": "3.2"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_workbench",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_workbench.git",
+                   "reference": "3.11"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_working_paper_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_working_paper_ct.git",
+                   "reference": "5.13"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_working_paper_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_working_paper_display.git",
+                   "reference": "6.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_wysiwyg",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_wysiwyg.git",
+                   "reference": "5.17"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_view_modes",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_view_modes.git",
+                   "reference": "5.18"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_voices_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_voices_ct.git",
+                   "reference": "release-1.07"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_voices_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_voices_display.git",
+                   "reference": "release-1.05"
+               }
+            }
+        },                                                                                
         {
            "type": "package",
            "package": {
@@ -1377,6 +2587,55 @@
         "drupal/gsb_feature_announcement_ct": "dev-features",
         "drupal/gsb_feature_base_fields": "dev-features",
         "drupal/gsb_feature_book_ct": "dev-features",
+        "drupal/gsb_feature_book_display": "dev-features",
+        "drupal/gsb_feature_business_website_ct": "dev-features",
+        "drupal/gsb_feature_business_website_display": "dev-features",
+        "drupal/gsb_feature_case_ct": "dev-features",
+        "drupal/gsb_feature_case_display": "dev-features",
+        "drupal/gsb_feature_club_ct": "dev-features",
+        "drupal/gsb_feature_club_display": "dev-features",
+        "drupal/gsb_feature_course_ct": "dev-features",
+        "drupal/gsb_feature_course_display": "dev-features",
+        "drupal/gsb_feature_cta": "dev-features",
+        "drupal/gsb_feature_diptych_fpp": "dev-features",
+        "drupal/gsb_feature_ee_megamenu": "dev-features",
+        "drupal/gsb_feature_ee_program_display": "dev-features",
+        "drupal/gsb_feature_event_ct": "dev-features",
+        "drupal/gsb_feature_event_display": "dev-features",
+        "drupal/gsb_feature_event_shared": "dev-features",
+        "drupal/gsb_feature_existing_node_fpp": "dev-features",
+        "drupal/gsb_feature_existing_node_list_fpp": "dev-features",
+        "drupal/gsb_feature_faculty_ct": "dev-features",
+        "drupal/gsb_feature_faculty_display": "dev-features",
+        "drupal/gsb_feature_featured_content_fpp": "dev-features",
+        "drupal/gsb_feature_featured_insight_card_fpp": "dev-features",
+        "drupal/gsb_feature_featured_person_fpp": "dev-features",
+        "drupal/gsb_feature_file_types": "dev-features",
+        "drupal/gsb_feature_files_fpp": "dev-features",
+        "drupal/gsb_feature_google_tag_manager": "dev-features",
+        "drupal/gsb_feature_gsa_search": "dev-features",
+        "drupal/gsb_feature_homepage_cta_fpp": "dev-features",
+        "drupal/gsb_feature_house_ads_fpp": "dev-features",
+        "drupal/gsb_feature_idea_story_ct": "dev-features",
+        "drupal/gsb_feature_idea_story_display": "dev-features",
+        "drupal/gsb_feature_image_cta_fpp": "dev-features",
+        "drupal/gsb_feature_image_fpp": "dev-features",
+        "drupal/gsb_feature_image_styles": "dev-features",
+        "drupal/gsb_feature_insight_display": "dev-features",
+        "drupal/gsb_feature_insights_quote_fpp": "dev-features",
+        "drupal/gsb_feature_landing_viewport_fpp": "dev-features",
+        "drupal/gsb_feature_links_fpp": "dev-features",
+        "drupal/gsb_feature_media_item_ct": "dev-features",
+        "drupal/gsb_feature_media_item_display": "dev-features",
+        "drupal/gsb_feature_mega_menu": "dev-features",
+        "drupal/gsb_feature_metatag": "dev-features",
+        "drupal/gsb_feature_mission_statement_fpp": "dev-features",
+        "drupal/gsb_feature_msx_fellows_ct": "dev-features",
+        "drupal/gsb_feature_msx_fellows_display": "dev-features",
+        "drupal/gsb_feature_news_display": "dev-features",
+        "drupal/gsb_feature_offsite_school_story_ct": "dev-features",
+        "drupal/gsb_feature_page_ct": "dev-features",
+        "drupal/gsb_feature_quotes_fpp": "dev-features",
         "drupal/gsb_field_authors": "dev-custom",
         "drupal/gsb_field_formatter": "dev-custom",
         "drupal/gsb_filter_with_states": "dev-custom",
