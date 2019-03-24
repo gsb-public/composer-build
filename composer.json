@@ -810,6 +810,201 @@
         {
            "type": "package",
            "package": {
+               "name": "drupal/gsb_feature_accordion",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_accordion.git",
+                   "reference": "4.01"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_act_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_act_ct.git",
+                   "reference": "5.14"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_act_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_act_display.git",
+                   "reference": "5.11"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_admission_event_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_admission_event_ct.git",
+                   "reference": "5.27"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_admission_event_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_admission_event_display.git",
+                   "reference": "6.07"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_all_research_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_all_research_display.git",
+                   "reference": "6.03"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_alumni_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_alumni_ct.git",
+                   "reference": "5.09"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_alumni_reunion_agenda_item_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_alumni_reunion_agenda_item_ct.git",
+                   "reference": "5.15"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_alumni_reunion_agenda_item_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_alumni_reunion_agenda_item_display.git",
+                   "reference": "5.05"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_alumni_reunion_group_page_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_alumni_reunion_group_page_ct.git",
+                   "reference": "5.07"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_alumni_reunion_group_page_display",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_alumni_reunion_group_page_display.git",
+                   "reference": "5.05"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_alumni_reunion_session_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_alumni_reunion_session_ct.git",
+                   "reference": "5.02"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_announcement_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_announcement_ct.git",
+                   "reference": "5.19"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_base_fields",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_base_fields.git",
+                   "reference": "5.56"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_book_ct",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_book_ct.git",
+                   "reference": "5.18"
+               }
+            }
+        },                                                                                                    
+        {
+           "type": "package",
+           "package": {
                "name": "drupal/webform_to_gdocs",
                "version": "6.02",
                "type": "drupal-module",
@@ -1167,6 +1362,21 @@
         "drupal/gsb_faculty_role": "dev-custom",
         "drupal/gsb_feature_academic_calendar_ct": "dev-features",
         "drupal/gsb_feature_academic_calendar_display": "dev-features",
+        "drupal/gsb_feature_accordion": "dev-features",
+        "drupal/gsb_feature_act_ct": "dev-features",
+        "drupal/gsb_feature_act_display": "dev-features",
+        "drupal/gsb_feature_admission_event_ct": "dev-features",
+        "drupal/gsb_feature_admission_event_display": "dev-features",
+        "drupal/gsb_feature_all_research_display": "dev-features",
+        "drupal/gsb_feature_alumni_ct": "dev-features",
+        "drupal/gsb_feature_alumni_reunion_agenda_item_ct": "dev-features",
+        "drupal/gsb_feature_alumni_reunion_agenda_item_display": "dev-features",
+        "drupal/gsb_feature_alumni_reunion_group_page_ct": "dev-features",
+        "drupal/gsb_feature_alumni_reunion_group_page_display": "dev-features",
+        "drupal/gsb_feature_alumni_reunion_session_ct": "dev-features",
+        "drupal/gsb_feature_announcement_ct": "dev-features",
+        "drupal/gsb_feature_base_fields": "dev-features",
+        "drupal/gsb_feature_book_ct": "dev-features",
         "drupal/gsb_field_authors": "dev-custom",
         "drupal/gsb_field_formatter": "dev-custom",
         "drupal/gsb_filter_with_states": "dev-custom",
