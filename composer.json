@@ -2866,6 +2866,19 @@
             "cweagans/composer-patches": {
                 "Call the preserve paths hooks" : "https://github.com/SebCorbin/composer-patches/commit/1cb9bacba51f8bba0c5f3f322c3bb61e4ceae974.patch"
             },
+            "drupal/drupal": {
+                "1620030": "https://drupal.org/files/issues/1620030-d7-3.patch",
+                "1702132": "https://drupal.org/files/drupal-7.14-ajax-showeffect-not-function-1702132.patch",
+                "1783278": "https://drupal.org/files/issues/schema-relative-1783278-17-D7-do-not-test.patch",
+                "remote_fonts": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/remote_fonts.patch",
+                "gsb-htaccess-rewrites": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/gsb-htaccess-rewrites.patch",
+                "1811100": "https://www.drupal.org/files/issues/file_field_ajax_wrapper-1811100-29-D7-do-not-test.patch",
+                "remove-robots": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/remove-robots-7.50.patch",
+                "field-labels" : "https://drupal.org/files/issues/field-980144-51-D7-do-not-test.patch",
+                "2215857": "https://www.drupal.org/files/issues/ajax-form-2215857-8-D7-do-not-test.patch",
+                "2313539": "https://www.drupal.org/files/issues/2313539-allow-cache-bust-theme-image-1.patch",
+                "image": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/image-7.56.patch"
+            },
             "drupal/link": {
                "2693731": "https://www.drupal.org/files/issues/2019-02-26/link_title_token_replace_when_enabled_2693731-1.patch",
                "981404": "https://drupal.org/files/link-981404-21.patch"
