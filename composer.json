@@ -2816,6 +2816,7 @@
         "tuupola/jquery_lazyload": "1.9.5",
         "webflo/drupal-finder": "^1.0.0",
         "wenzhixin/multiple-select": "^1.1",
+        "wikimedia/composer-merge-plugin": "^1.4",
         "xdamman/selection-sharer": "^0.0.15",
         "zurb/responsive-tables": "dev-master#0d34bc64df"
     },
@@ -2862,6 +2863,22 @@
             "web/profiles/gsb_public/modules/custom/{$name}/": ["type:drupal-custom-module"],
             "web/profiles/gsb_public/themes/custom/{$name}/": ["type:drupal-custom-theme"]
         },
+        "merge-plugin": {
+            "include": [
+                "composer.local.json",
+                "extensions/*/composer.json"
+            ],
+            "require": [
+                "web/profiles/gsb_public/modules/custom/gsb_public_custom_blocks/composer.json"
+            ],
+            "recurse": true,
+            "replace": false,
+            "ignore-duplicates": false,
+            "merge-dev": true,
+            "merge-extra": false,
+            "merge-extra-deep": false,
+            "merge-scripts": false
+        },      
         "patches": {
             "cweagans/composer-patches": {
                 "Call the preserve paths hooks" : "https://github.com/SebCorbin/composer-patches/commit/1cb9bacba51f8bba0c5f3f322c3bb61e4ceae974.patch"
