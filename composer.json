@@ -2432,7 +2432,7 @@
             "package": {
                 "name": "themattharris/tmhOAuth",
                 "version": "0.8.2",
-                "type": "drupal-library", 
+                "type": "drupal-special-library", 
                 "source": {
                    "url": "https://github.com/themattharris/tmhOAuth.git",
                    "type": "git",
@@ -2812,7 +2812,7 @@
         "samsono/easyResponsiveTabs": "master",
         "scottjehl/respondjs": "master",
         "symfony/filesystem": "~2.7|^3",
-        "themattharris/tmhOAuth": "^0.8.4",
+        "themattharris/tmhOAuth": "0.8.2",
         "tuupola/jquery_lazyload": "1.9.5",
         "webflo/drupal-finder": "^1.0.0",
         "wenzhixin/multiple-select": "^1.1",
@@ -2850,12 +2850,13 @@
         ]
     },
     "extra": {
-        "installer-types": ["drupal-features-module"],
+        "installer-types": ["drupal-features-module", "drupal-special-library"],
         "installer-paths": {
             "web/": ["type:drupal-core"],
             "web/profiles/{$name}/": ["type:drupal-profile"],
             "web/sites/all/drush/{$name}/": ["type:drupal-drush"],
             "web/profiles/gsb_public/libraries/{$name}/": ["type:drupal-library"],
+            "web/profiles/gsb_public/libraries/{$name}/": ["type:drupal-special-library"],
             "web/profiles/gsb_public/modules/contrib/{$name}/": ["type:drupal-module"],
             "web/profiles/gsb_public/themes/contrib/{$name}/": ["type:drupal-theme"],
             "web/profiles/gsb_public/modules/custom/features/{$name}/": ["type:drupal-features-module"],
