@@ -1194,7 +1194,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_event_display.git",
-                   "reference": "6.09"
+                   "reference": "release-6.09.1"
                }
             }
         },
@@ -2869,7 +2869,8 @@
                 "extensions/*/composer.json"
             ],
             "require": [
-                "web/profiles/gsb_public/modules/custom/gsb_public_custom_blocks/composer.json"
+                "web/profiles/gsb_public/modules/custom/gsb_public_custom_blocks/composer.json",
+                "web/profiles/gsb_public/modules/custom/features/gsb_feature_event_display/composer.json"
             ],
             "recurse": true,
             "replace": false,
