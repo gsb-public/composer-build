@@ -24,4 +24,5 @@ composer require
 ## Known issues
 
 1) Library for scottjehl/respondjs is not unzipping the tar.gz file
-1) Libraries and modules from other .make files not getting added. Example weather not being added to profiles/gsb_public/libraries folder.
+1) Libraries and modules from other .make files not getting added. (Starting to add them, but not complete.)
+1) profiles/gsb_public/libraries/markdown should be moved to be in profiles/gsb_public/libraries/markitup/markitup/sets/markdown
