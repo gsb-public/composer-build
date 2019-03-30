@@ -1,6 +1,6 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 7 projects with composer",
+    "name": "gsb-public/composer-build",
+    "description": "GSB Public Composer Build - Drupal 7",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
