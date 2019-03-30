@@ -1987,7 +1987,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_slideshow_fpp.git",
-                   "reference": "5.06"
+                   "reference": "release-5.06.1"
                }
             }
         },
@@ -2026,7 +2026,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_toolbar.git",
-                   "reference": "5.04"
+                   "reference": "release-5.04.1"
                }
             }
         },
@@ -2169,7 +2169,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_wysiwyg.git",
-                   "reference": "5.17"
+                   "reference": "release-5.17.1"
                }
             }
         },
@@ -2870,7 +2870,11 @@
             ],
             "require": [
                 "web/profiles/gsb_public/modules/custom/gsb_public_custom_blocks/composer.json",
-                "web/profiles/gsb_public/modules/custom/features/gsb_feature_event_display/composer.json"
+                "web/profiles/gsb_public/modules/custom/features/gsb_feature_event_display/composer.json",
+                "web/profiles/gsb_public/modules/custom/features/gsb_feature_slideshow_fpp/composer.json",
+                "web/profiles/gsb_public/modules/custom/features/gsb_feature_toolbar/composer.json",
+                "web/profiles/gsb_public/modules/custom/features/gsb_feature_webform_ct/composer.json",
+                "web/profiles/gsb_public/modules/custom/features/gsb_feature_wysiwyg/composer.json"
             ],
             "recurse": true,
             "replace": false,
@@ -3004,6 +3008,18 @@
             },
             "drupal/redirect": {
                "1116408": "https://www.drupal.org/files/redirect-migrate-support-1116408-69.patch"
+            },
+            "drupal/webform_addmore": {
+              "webform_addmore-js": "https://raw.githubusercontent.com/gsbitse/gsb-revamp-patches/master/webform_addmore-parent-js.patch"  
+            },
+            "drupal/wysiwyg": {
+              "397994": "https://www.drupal.org/files/issues/397994-d7-32.patch"  
+            },
+            "drupal/footnotes": {
+              "2296211": "https://www.drupal.org/files/issues/2296211-d7-2.patch"  
+            },
+            "markitup/markitup": {
+              "WP-5186": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/WP-5186-jquery-markitup.js.patch"  
             }
         },
         "preserve-paths": [
