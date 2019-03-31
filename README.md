@@ -99,3 +99,28 @@ $databases = array (
   ),
 );
 ```
+* comment out require_once at top of webform_to_gdocs.module
+
+```
+vi profiles/gsb_public/modules/contrib/webform_to_gdocs/webform_to_gdocs.module
+```
+
+* move ctools_query_string_context
+
+```
+cd profiles/gsb_public/modules/custom/
+mkdir modules
+mv ctools_query_string_context modules/.
+```
+
+* try running drush
+
+```
+lando drush
+```
+
+* run the update script
+
+```
+sh ~/Desktop/lando/scripts/doupdate.sh
+```
