@@ -44,6 +44,8 @@ lando start
 lando composer create-project drupal-composer/drupal-project:7.x-dev gsb2 --stability dev --no-interaction
 ```
 
+* copy composer-build/composer.json to gsb2 directory
+
 ```
 cd gsb2
 cp ~/Desktop/composer/class/d7-gsb2/composer.json .
