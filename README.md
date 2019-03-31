@@ -29,3 +29,73 @@ composer require
 ## Todos
 
 1) Patches done in the composer.json of gsb custom modules are not being triggered to run. Added these patches directly into this main composer file - to 'fix' the issue for the moment. This needs to be resolved later.
+
+## Lando Steps (draft)
+
+* webroot = web
+* app name = gsb2
+
+```
+lando init
+```
+
+```
+lando start
+lando composer create-project drupal-composer/drupal-project:7.x-dev gsb2 --stability dev --no-interaction
+```
+
+```
+cd gsb2
+cp ~/Desktop/composer/class/d7-gsb2/composer.json .
+```
+
+* edit composer.json
+* remove contents of require section of merge-plugin 
+
+```
+lando composer require
+```
+
+* edit composer.json 
+* add back merge-plugin require for extra sub-level composer.json files
+
+```
+lando composer require
+```
+
+```
+sh ~/Desktop/lando/scripts/doimport.sh
+use drupal7;
+source out.sql
+```
+
+```
+mv web/* .
+mv web/.* .
+```
+
+edit settings.php
+
+```
+vi sites/default/settings.php
+```
+
+add under databases section
+
+```
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'drupal7',
+      'username' => 'drupal7',
+      'password' => 'drupal7',
+      'host' => 'database',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
+```
