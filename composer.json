@@ -2303,7 +2303,7 @@
         {
             "type": "package",
             "package": {
-               "name": "fancyapps/fancyBox",
+               "name": "fancyapps/fancybox",
                "version": "v2.1.4",
                "type": "drupal-gsb-library",
                "source": {
@@ -2826,7 +2826,7 @@
         "drupal/youtube_api": "1.0-beta3",
         "drupal/zurb_responsive_tables": "dev-custom",
         "drush/drush": "^8.0",
-        "fancyapps/fancyBox": "^2.1",
+        "fancyapps/fancybox": "^2.1",
         "garand/sticky-master": "^1.0",
         "google/google-api-php-client": "1.1.6",
         "gsb-public/php-cvent": "^5.16",
