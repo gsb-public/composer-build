@@ -19,7 +19,7 @@
             "package": {
                 "name": "drupal/ctools_query_string_context",
                 "version": "dev-7.x",
-                "type": "drupal-module",
+                "type": "drupal-custom-module",
                 "source": {
                     "url": "https://git.drupal.org/sandbox/balint.kleri-1442298.git",
                     "type": "git",
@@ -2211,7 +2211,33 @@
                    "reference": "release-1.05"
                }
             }
-        },                                                                                
+        },       
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_theme",
+               "version": "dev-themes",
+               "type": "drupal-gsb-theme",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_theme.git",
+                   "reference": "release-6.58.1"
+               }
+            }
+        },       
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_theme_admin",
+               "version": "dev-themes",
+               "type": "drupal-gsb-theme",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_theme_admin.git",
+                   "reference": "5.10"
+               }
+            }
+        },                                                                    
         {
            "type": "package",
            "package": {
@@ -2704,10 +2730,14 @@
         "drupal/gsb_section_autoconfig": "dev-custom",
         "drupal/gsb_social": "dev-custom",
         "drupal/gsb_submenu_alias_update": "dev-custom",
+        "drupal/gsb_text_equivalent": "dev-custom",
+        "drupal/gsb_tokens": "dev-custom",
         "drupal/gsb_trim": "dev-custom",
         "drupal/gsb_twelve_twenty": "dev-custom",
         "drupal/gsb_url_shortener": "dev-custom",
         "drupal/gsb_workbench_save_and_publish": "dev-custom",
+        "drupal/gsb_theme": "dev-themes",
+        "drupal/gsb_theme_admin": "dev-themes",
         "drupal/hierarchical_select": "3.0-beta9",
         "drupal/hs_lite": "dev-1.x#d2168",
         "drupal/image_captcha_refresh": "1.6",
@@ -2851,17 +2881,16 @@
         ]
     },
     "extra": {
-        "installer-types": ["drupal-features-module", "drupal-gsb-library"],
+        "installer-types": ["drupal-features-module", "drupal-gsb-library", "drupal-gsb-theme"],
         "installer-paths": {
             "web/": ["type:drupal-core"],
             "web/profiles/{$name}/": ["type:drupal-profile"],
             "web/sites/all/drush/{$name}/": ["type:drupal-drush"],
             "web/profiles/gsb_public/libraries/{$name}/": ["type:drupal-gsb-library"],
             "web/profiles/gsb_public/modules/contrib/{$name}/": ["type:drupal-module"],
-            "web/profiles/gsb_public/themes/contrib/{$name}/": ["type:drupal-theme"],
             "web/profiles/gsb_public/modules/custom/features/{$name}/": ["type:drupal-features-module"],
             "web/profiles/gsb_public/modules/custom/{$name}/": ["type:drupal-custom-module"],
-            "web/profiles/gsb_public/themes/custom/{$name}/": ["type:drupal-custom-theme"]
+            "web/profiles/gsb_public/themes/{$name}/": ["type:drupal-gsb-theme"]
         },
         "merge-plugin": {
             "include": [
