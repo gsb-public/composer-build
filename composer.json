@@ -21,7 +21,7 @@
                 "version": "dev-7.x",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://git.drupal.org/sandbox/balint.kleri/1442298.git",
+                    "url": "https://git.drupal.org/sandbox/balint.kleri-1442298.git",
                     "type": "git",
                     "reference": "dev-7.x"
                 }
@@ -34,7 +34,7 @@
                 "version": "dev-1.x",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://git.drupal.org/sandbox/gmercer/2296881.git",
+                    "url": "https://git.drupal.org/sandbox/gmercer-2296881.git",
                     "type": "git",
                     "reference": "dev-1.x"
                 }
