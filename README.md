@@ -126,3 +126,9 @@ lando drush
 ```
 sh ~/Desktop/lando/scripts/doupdate.sh
 ```
+* bounce lando app gsb2
+
+```
+lando stop gsb-2
+lando start gsb-2
+```
