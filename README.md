@@ -121,6 +121,12 @@ mv ctools_query_string_context modules/.
 lando drush
 ```
 
+* create temp directory - in gsb2 directory
+
+```
+mkdir temp
+```
+
 * run the update script
 
 ```
