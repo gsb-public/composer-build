@@ -32,7 +32,7 @@ composer require
 
 ## Lando Steps (draft)
 
-* webroot = web
+* webroot = gsb2
 * app name = gsb2
 
 ```
