@@ -48,7 +48,7 @@ lando composer create-project drupal-composer/drupal-project:7.x-dev gsb2 --stab
 
 ```
 cd gsb2
-cp ~/Desktop/composer/class/d7-gsb2/composer.json .
+cp ~/Desktop/composer/composer-build/composer.json .
 ```
 
 * edit composer.json
@@ -66,7 +66,7 @@ lando composer require
 ```
 
 ```
-sh ~/Desktop/lando/scripts/doimport.sh
+sh ~/Desktop/composer/composer-build/scripts/doimport.sh
 use drupal7;
 source out.sql
 ```
@@ -130,7 +130,7 @@ mkdir temp
 * run the update script
 
 ```
-sh ~/Desktop/lando/scripts/doupdate.sh
+sh ~/Desktop/composer/composer-build/scripts/doupdate.sh
 ```
 * bounce lando app gsb2
 
