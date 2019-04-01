@@ -1,0 +1,5 @@
+name: gsb
+recipe: drupal7
+config:
+  webroot: gsb
+  xdebug: true
