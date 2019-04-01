@@ -15,6 +15,19 @@
             "url": "https://packages.drupal.org/7"
         },
         {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_public",
+               "version": "dev-custom",
+               "type": "drupal-profile-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_public.git",
+                   "reference": "release-6.58"
+               }
+            }
+        },
+        {
             "type": "package",
             "package": {
                 "name": "drupal/ctools_query_string_context",
@@ -2578,6 +2591,7 @@
         "drupal/filefield_paths": "dev-1.x#8b39e73",
         "drupal/google_analytics": "2.4",
         "drupal/google_appliance_suggest": "1.6",
+        "drupal/gsb_public": "dev-custom",
         "drupal/gsb_academic_year": "dev-custom",
         "drupal/gsb_acquia_tokens": "dev-custom",
         "drupal/gsb_advanced_menu_customization": "dev-custom",
@@ -2881,13 +2895,14 @@
         ]
     },
     "extra": {
-        "installer-types": ["drupal-features-module", "drupal-gsb-library", "drupal-gsb-theme"],
+        "installer-types": ["drupal-profile-module", "drupal-features-module", "drupal-gsb-library", "drupal-gsb-theme"],
         "installer-paths": {
             "web/": ["type:drupal-core"],
             "web/profiles/{$name}/": ["type:drupal-profile"],
             "web/sites/all/drush/{$name}/": ["type:drupal-drush"],
             "web/profiles/gsb_public/libraries/{$name}/": ["type:drupal-gsb-library"],
             "web/profiles/gsb_public/modules/contrib/{$name}/": ["type:drupal-module"],
+            "web/profiles/gsb_public/": ["type:drupal-profile-module"],
             "web/profiles/gsb_public/modules/custom/features/{$name}/": ["type:drupal-features-module"],
             "web/profiles/gsb_public/modules/custom/{$name}/": ["type:drupal-custom-module"],
             "web/profiles/gsb_public/themes/{$name}/": ["type:drupal-gsb-theme"]
