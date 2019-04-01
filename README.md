@@ -32,22 +32,21 @@ composer require
 
 ## Lando Steps (draft)
 
-* webroot = gsb2
-* app name = gsb2
+* copy composer-build/.lando.yml into your new site directory
 
 ```
-lando init
+cp ~/Desktop/composer/composer-build/.lando.yml .
 ```
 
 ```
 lando start
-lando composer create-project drupal-composer/drupal-project:7.x-dev gsb2 --stability dev --no-interaction
+lando composer create-project drupal-composer/drupal-project:7.x-dev gsb --stability dev --no-interaction
 ```
 
-* copy composer-build/composer.json to gsb2 directory
+* copy composer-build/composer.json to gsb directory
 
 ```
-cd gsb2
+cd gsb
 cp ~/Desktop/composer/composer-build/composer.json .
 ```
 
@@ -132,9 +131,9 @@ mkdir temp
 ```
 sh ~/Desktop/composer/composer-build/scripts/doupdate.sh
 ```
-* bounce lando app gsb2
+* bounce lando app gsb
 
 ```
-lando stop gsb-2
-lando start gsb-2
+lando stop gsb
+lando start gsb
 ```
