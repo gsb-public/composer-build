@@ -1,5 +1,13 @@
-name: gsb
+name: gsb-3
 recipe: drupal7
 config:
-  webroot: gsb
+  webroot: gsb3
   xdebug: true
+proxy: 
+  phpmyadmin: 
+    - phpmyadmin.gsb3.lndo.site
+services:
+  phpmyadmin:
+    type: phpmyadmin
+  database:
+    type: mysql:5.7
