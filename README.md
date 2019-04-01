@@ -32,6 +32,14 @@ composer require
 
 ## Lando Steps (draft)
 
+* create a new site directory
+* cd into the your new site directory
+
+```
+mkdir newsite
+cd newsite
+```
+
 * copy composer-build/.lando.yml into your new site directory
 
 ```
@@ -57,22 +65,23 @@ cp ~/Desktop/composer/composer-build/composer.json .
 lando composer require
 ```
 
-* edit composer.json 
-* add back merge-plugin require for extra sub-level composer.json files
+* copy composer.json again
 
 ```
+cp ~/Desktop/composer/composer-build/composer.json .
 lando composer require
 ```
 
-```
-sh ~/Desktop/composer/composer-build/scripts/doimport.sh
-use drupal7;
-source out.sql
-```
+* run database import script
 
 ```
-mv web/* .
-mv web/.* .
+sh ~/Desktop/composer/composer-build/scripts/doimport.sh
+```
+
+* run the patch docroot script
+
+```
+sh ~/Desktop/composer/composer-build/scripts/dopatchdoc.sh
 ```
 
 edit settings.php
@@ -109,21 +118,20 @@ vi profiles/gsb_public/modules/contrib/webform_to_gdocs/webform_to_gdocs.module
 * move ctools_query_string_context
 
 ```
-cd profiles/gsb_public/modules/custom/
-mkdir modules
-mv ctools_query_string_context modules/.
-```
-
-* try running drush
-
-```
-lando drush
+mkdir profiles/gsb_public/modules/custom/modules
+mv profiles/gsb_public/modules/custom/ctools_query_string_context profiles/gsb_public/modules/custom/modules/.
 ```
 
 * create temp directory - in gsb2 directory
 
 ```
 mkdir temp
+```
+
+* try running drush
+
+```
+lando drush
 ```
 
 * run the update script
