@@ -46,12 +46,15 @@ cd newsite
 cp ~/Desktop/composer/composer-build/.lando.yml .
 ```
 
+* start lando
+* use composer to install drupal7 into the gsb directory
+
 ```
 lando start
 lando composer create-project drupal-composer/drupal-project:7.x-dev gsb --stability dev --no-interaction
 ```
 
-* copy composer-build/composer.json to gsb directory
+* copy composer-build/composer.json into the gsb directory
 
 ```
 cd gsb
@@ -84,13 +87,13 @@ sh ~/Desktop/composer/composer-build/scripts/doimport.sh
 sh ~/Desktop/composer/composer-build/scripts/dopatchdoc.sh
 ```
 
-edit settings.php
+* edit settings.php
 
 ```
 vi sites/default/settings.php
 ```
 
-add under databases section
+* add under databases section
 
 ```
 $databases = array (
@@ -109,6 +112,7 @@ $databases = array (
   ),
 );
 ```
+
 * comment out require_once at top of webform_to_gdocs.module
 
 ```
@@ -122,10 +126,16 @@ mkdir profiles/gsb_public/modules/custom/modules
 mv profiles/gsb_public/modules/custom/ctools_query_string_context profiles/gsb_public/modules/custom/modules/.
 ```
 
-* create temp directory - in gsb2 directory
+* create temp directory - in gsb directory
 
 ```
 mkdir temp
+```
+
+* comment out line 63 of memcache_admin.module
+
+```
+vi profiles/gsb_public/modules/contrib/memcache/memcache_admin/memcache_admin.module
 ```
 
 * try running drush
@@ -139,6 +149,7 @@ lando drush
 ```
 sh ~/Desktop/composer/composer-build/scripts/doupdate.sh
 ```
+
 * bounce lando app gsb
 
 ```
