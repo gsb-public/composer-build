@@ -1,36 +1,16 @@
 # composer-build
 
-This is just a rough start at creating a composer.json file for our GSB Public Site.
+Developer instructions and Composer commands to install the GSB Public Website in a local Lando/Docker container.
 
-## Build Steps
+## Install Lando
 
-1) Run the following create-project command
-```
-composer create-project drupal-composer/drupal-project:7.x-dev gsb --stability dev --no-interaction
-```
+* On Mac run the following command:
 
-2) Change directory to the new project:
 ```
-cd gsb
+brew cask install lando
 ```
 
-3) Copy composer-build/composer.json (from this repository) over the composer.json in gsb/
-
-4) Run the composer require command:
-```
-composer require
-```
-
-## Known issues
-
-1) Library for scottjehl/respondjs is not unzipping the tar.gz file
-1) profiles/gsb_public/libraries/markdown should be moved to be in profiles/gsb_public/libraries/markitup/markitup/sets/markdown
-
-## Todos
-
-1) Patches done in the composer.json of gsb custom modules are not being triggered to run. Added these patches directly into this main composer file - to 'fix' the issue for the moment. This needs to be resolved later.
-
-## Lando Steps (draft)
+## Lando Composer Steps (draft)
 
 * create a new site directory
 * cd into the your new site directory
@@ -156,3 +136,30 @@ sh ~/Desktop/composer/composer-build/scripts/doupdate.sh
 lando stop gsb
 lando start gsb
 ```
+
+## Setting up Debugging in PHPStorm
+
+1) Open the Views/Tool Window/Docker pane
+1) Click on the 'Environment Variables' menu at the top of the Docker pane.
+1) Add the following variable/value pair:
+
+```
+XDEBUG_CONFIG=remote_enable=true remote_host=host.docker.internal
+```
+
+* Add the following to a url for a page on the GSB Public Web site served from your local Lando container:
+
+```
+?XDEBUG_SESSION=PHPSTORM
+```
+
+## Known issues
+
+1) Library for scottjehl/respondjs is not unzipping the tar.gz file
+1) profiles/gsb_public/libraries/markdown should be moved to be in profiles/gsb_public/libraries/markitup/markitup/sets/markdown
+
+## Todos
+
+1) Patches done in the composer.json of gsb custom modules are not being triggered to run. Added these patches directly into this main composer file - to 'fix' the issue for the moment. This needs to be resolved later.
+
+
