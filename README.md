@@ -12,7 +12,15 @@ brew cask install lando
 
 ## Lando Composer Steps (draft)
 
-* create a new site directory
+* Clone this repo
+
+```
+git clone git@github.com:gsb-public/composer-build.git
+```
+
+* Edit composer/scripts/doimport.sh and doupdate.sh to match your specific setup
+
+* Create a new site directory
 * cd into the your new site directory
 
 ```
