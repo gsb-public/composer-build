@@ -1,6 +1,6 @@
 # composer-build
 
-Developer instructions and Composer commands to install the GSB Public Website in a local Lando/Docker container.
+Developer instructions to build the GSB Public Website using Composer in a local Lando/Docker container.
 
 ## Install Lando
 
