@@ -2342,7 +2342,7 @@
         {
             "type": "package",
             "package": {
-                "name": "mailchimp/mailchimp-api-php",
+                "name": "mailchimp/mailchimp",
                 "version": "master",
                 "type": "drupal-gsb-library", 
                 "dist": {
@@ -2379,6 +2379,42 @@
         {
             "type": "package",
             "package": {
+                "name": "phpwkhtmltopdf/phpwkhtmltopdf",
+                "version": "master",
+                "type": "drupal-gsb-library", 
+                "dist": {
+                    "url": "https://github.com/mikehaertl/phpwkhtmltopdf/archive/2.0.1.tar.gz",
+                    "type": "tar"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "php-shellcommand/php-shellcommand",
+                "version": "master",
+                "type": "drupal-gsb-library", 
+                "dist": {
+                    "url": "https://github.com/mikehaertl/php-shellcommand/archive/1.0.3.tar.gz",
+                    "type": "tar"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "php-tmpfile/php-tmpfile",
+                "version": "master",
+                "type": "drupal-gsb-library", 
+                "dist": {
+                    "url": "https://github.com/mikehaertl/php-tmpfile/archive/1.0.0.tar.gz",
+                    "type": "tar"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "mptre/php-soundcloud",
                 "version": "v2.3.2",
                 "type": "drupal-gsb-library", 
@@ -2399,6 +2435,18 @@
                    "url": "https://github.com/gsb-public/php-cvent.git",
                    "type": "git",
                    "reference": "5.16"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "qtip/qtip",
+                "version": "master",
+                "type": "drupal-gsb-library", 
+                "dist": {
+                    "url": "https://raw.githubusercontent.com/Craga89/qTip1/master/1.0.0-rc3/jquery.qtip-1.0.0-rc3.min.js",
+                    "type": "file"
                 }
             }
         },
@@ -2822,10 +2870,14 @@
         "jurrick/jquery-multicheckbox": "1.0.0",
         "kraken-io/kraken-php": "master",
         "longbill/jquery-date-range-picker": "master",
-        "mailchimp/mailchimp-api-php": "master",
+        "mailchimp/mailchimp": "master",
         "metafizzy/isotope": "master",
         "moment/moment": "master",
         "mptre/php-soundcloud": "^2.3",
+        "phpwkhtmltopdf/phpwkhtmltopdf": "master",
+        "php-shellcommand/php-shellcommand": "master",
+        "php-tmpfile/php-tmpfile": "master",
+        "qtip/qtip": "master",
         "oomphinc/composer-installers-extender": "^1.1",
         "samsono/easyResponsiveTabs": "master",
         "scottjehl/respondjs": "master",
@@ -2835,6 +2887,7 @@
         "webflo/drupal-finder": "^1.0.0",
         "wenzhixin/multiple-select": "^1.1",
         "wikimedia/composer-merge-plugin": "^1.4",
+        "wkhtmltopdf/wkhtmltopdf": "master",
         "xdamman/selection-sharer": "^0.0.15",
         "zurb/responsive-tables": "dev-master#0d34bc64df"
     },
@@ -2906,9 +2959,6 @@
             "merge-scripts": false
         },      
         "patches": {
-            "cweagans/composer-patches": {
-                "Call the preserve paths hooks" : "https://github.com/SebCorbin/composer-patches/commit/1cb9bacba51f8bba0c5f3f322c3bb61e4ceae974.patch"
-            },
             "drupal/drupal": {
                 "1620030": "https://drupal.org/files/issues/1620030-d7-3.patch",
                 "1702132": "https://drupal.org/files/drupal-7.14-ajax-showeffect-not-function-1702132.patch",
