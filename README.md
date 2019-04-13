@@ -63,7 +63,7 @@ cp ~/Desktop/composer/composer-build/composer.json .
 lando composer require
 ```
 
-* run database import script
+* run database import script (you'll need to edit this a bit to point to a downloaded tar file)
 
 ```
 sh ~/Desktop/composer/composer-build/scripts/doimport.sh
@@ -132,7 +132,7 @@ vi profiles/gsb_public/modules/contrib/memcache/memcache_admin/memcache_admin.mo
 lando drush
 ```
 
-* run the update script
+* run the update script (you'll need to edit this to put in one of the development site urls)
 
 ```
 sh ~/Desktop/composer/composer-build/scripts/doupdate.sh
