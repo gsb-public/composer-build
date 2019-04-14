@@ -303,19 +303,6 @@
         {
            "type": "package",
            "package": {
-               "name": "drupal/gsb_public_custom_blocks",
-               "version": "dev-custom",
-               "type": "drupal-custom-module",
-               "source": {
-                   "type": "git",
-                   "url": "git@github.com:gsb-public/gsb_public_custom_blocks.git",
-                   "reference": "release-6.35"
-               }
-            }
-        },
-        {
-           "type": "package",
-           "package": {
                "name": "drupal/gsb_custom_breadcrumbs",
                "version": "dev-custom",
                "type": "drupal-custom-module",
@@ -2486,6 +2473,18 @@
                    "reference": "2.0.1"
                 }
             }
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "weather/weather",
+            "version": "master",
+            "type": "drupal-gsb-library", 
+            "dist": {
+              "url": "https://github.com/gsbitse/weather/archive/master.zip",
+              "type": "zip"
+            }
+          }
         }
     ],
     "require": {
@@ -2703,7 +2702,7 @@
         "drupal/gsb_panels_pages": "dev-custom",
         "drupal/gsb_public": "dev-custom",
         "drupal/gsb_public_brochure_list": "dev-custom",
-        "drupal/gsb_public_custom_blocks": "dev-custom",
+        "gsb/gsb_public_custom_blocks": "dev-release-6.35",
         "drupal/gsb_public_statistics": "dev-custom",
         "drupal/gsb_resources": "dev-custom",
         "drupal/gsb_restricted_pages": "dev-custom",
@@ -2888,7 +2887,6 @@
                 "extensions/*/composer.json"
             ],
             "require": [
-                "web/profiles/gsb_public/modules/custom/gsb_public_custom_blocks/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_event_display/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_slideshow_fpp/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_wysiwyg/composer.json",
