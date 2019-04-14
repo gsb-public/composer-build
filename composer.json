@@ -511,19 +511,6 @@
         {
            "type": "package",
            "package": {
-               "name": "drupal/gsb_migrate",
-               "version": "dev-custom",
-               "type": "drupal-custom-module",
-               "source": {
-                   "type": "git",
-                   "url": "git@github.com:gsb-public/gsb_migrate.git",
-                   "reference": "release-5.02.1"
-               }
-            }
-        },
-        {
-           "type": "package",
-           "package": {
                "name": "drupal/gsb_node_modal",
                "version": "dev-custom",
                "type": "drupal-custom-module",
@@ -2722,7 +2709,7 @@
         "drupal/gsb_fpp_xray": "dev-custom",
         "drupal/gsb_login_destination": "dev-custom",
         "drupal/gsb_media_center": "dev-custom",
-        "drupal/gsb_migrate": "dev-custom",
+        "gsb/gsb_migrate": "dev-release-5.02.1",
         "drupal/gsb_misc_fixes": "dev-custom",
         "drupal/gsb_node_modal": "dev-custom",
         "drupal/gsb_panels_ipe_overrides": "dev-custom",
@@ -2919,7 +2906,6 @@
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_slideshow_fpp/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_wysiwyg/composer.json",
                 "web/profiles/gsb_public/modules/custom/gsb_fpp_customization/composer.json",
-                "web/profiles/gsb_public/modules/custom/gsb_migrate/composer.json",
                 "web/profiles/gsb_public/modules/custom/gsb_section_autoconfig/composer.json"
             ],
             "recurse": true,
