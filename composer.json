@@ -628,19 +628,6 @@
         {
            "type": "package",
            "package": {
-               "name": "drupal/gsb_section_autoconfig",
-               "version": "dev-custom",
-               "type": "drupal-custom-module",
-               "source": {
-                   "type": "git",
-                   "url": "git@github.com:gsb-public/gsb_section_autoconfig.git",
-                   "reference": "release-2.0.1"
-               }
-            }
-        },
-        {
-           "type": "package",
-           "package": {
                "name": "drupal/gsb_social",
                "version": "dev-custom",
                "type": "drupal-custom-module",
@@ -2722,7 +2709,7 @@
         "drupal/gsb_restricted_pages": "dev-custom",
         "drupal/gsb_rethink": "dev-custom",
         "drupal/gsb_robots": "dev-custom",
-        "drupal/gsb_section_autoconfig": "dev-custom",
+        "gsb/gsb_section_autoconfig": "dev-release-2.0.1",
         "drupal/gsb_social": "dev-custom",
         "drupal/gsb_submenu_alias_update": "dev-custom",
         "drupal/gsb_text_equivalent": "dev-custom",
@@ -2905,8 +2892,7 @@
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_event_display/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_slideshow_fpp/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_wysiwyg/composer.json",
-                "web/profiles/gsb_public/modules/custom/gsb_fpp_customization/composer.json",
-                "web/profiles/gsb_public/modules/custom/gsb_section_autoconfig/composer.json"
+                "web/profiles/gsb_public/modules/custom/gsb_fpp_customization/composer.json"
             ],
             "recurse": true,
             "replace": false,
@@ -3046,9 +3032,6 @@
             },
             "markitup/markitup": {
               "WP-5186": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/WP-5186-jquery-markitup.js.patch"  
-            },
-            "drupal/advanced_menu": {
-              "2125179": "https://drupal.org/files/issues/advanced_menu_patch-2125179-1.patch"  
             }
         },
         "preserve-paths": [
