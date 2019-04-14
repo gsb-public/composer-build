@@ -1344,19 +1344,6 @@
         {
            "type": "package",
            "package": {
-               "name": "drupal/gsb_feature_gsa_search",
-               "version": "dev-features",
-               "type": "drupal-features-module",
-               "source": {
-                   "type": "git",
-                   "url": "git@github.com:gsb-public/gsb_feature_gsa_search.git",
-                   "reference": "release-6.03.1"
-               }
-            }
-        },
-        {
-           "type": "package",
-           "package": {
                "name": "drupal/gsb_feature_homepage_cta_fpp",
                "version": "dev-features",
                "type": "drupal-features-module",
@@ -2674,7 +2661,7 @@
         "drupal/gsb_feature_featured_program_fpp": "dev-features",
         "drupal/gsb_feature_file_types": "dev-features",
         "drupal/gsb_feature_files_fpp": "dev-features",
-        "drupal/gsb_feature_gsa_search": "dev-features",
+        "gsb/gsb_feature_gsa_search": "dev-release-6.03.1",
         "drupal/gsb_feature_homepage_cta_fpp": "dev-features",
         "drupal/gsb_feature_house_ads_fpp": "dev-features",
         "drupal/gsb_feature_idea_story_ct": "dev-features",
@@ -2942,7 +2929,6 @@
             "require": [
                 "web/profiles/gsb_public/modules/custom/gsb_public_custom_blocks/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_event_display/composer.json",
-                "web/profiles/gsb_public/modules/custom/features/gsb_feature_gsa_search/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_slideshow_fpp/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_webform_ct/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_wysiwyg/composer.json",
