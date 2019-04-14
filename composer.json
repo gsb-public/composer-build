@@ -2059,19 +2059,6 @@
         {
            "type": "package",
            "package": {
-               "name": "drupal/gsb_feature_webform_ct",
-               "version": "dev-features",
-               "type": "drupal-features-module",
-               "source": {
-                   "type": "git",
-                   "url": "git@github.com:gsb-public/gsb_feature_webform_ct.git",
-                   "reference": "release-6.12"
-               }
-            }
-        },
-        {
-           "type": "package",
-           "package": {
                "name": "drupal/gsb_feature_week_in_the_life_ct",
                "version": "dev-features",
                "type": "drupal-features-module",
@@ -2719,7 +2706,7 @@
         "drupal/gsb_feature_view_modes": "dev-features",
         "drupal/gsb_feature_voices_ct": "dev-features",
         "drupal/gsb_feature_voices_display": "dev-features",
-        "drupal/gsb_feature_webform_ct": "dev-features",
+        "gsb/gsb_feature_webform_ct": "dev-release-6.12",
         "drupal/gsb_feature_week_in_the_life_ct": "dev-features",
         "drupal/gsb_feature_week_in_the_life_display": "dev-features",
         "drupal/gsb_feature_workbench": "dev-features",
@@ -2930,7 +2917,6 @@
                 "web/profiles/gsb_public/modules/custom/gsb_public_custom_blocks/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_event_display/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_slideshow_fpp/composer.json",
-                "web/profiles/gsb_public/modules/custom/features/gsb_feature_webform_ct/composer.json",
                 "web/profiles/gsb_public/modules/custom/features/gsb_feature_wysiwyg/composer.json",
                 "web/profiles/gsb_public/modules/custom/gsb_fpp_customization/composer.json",
                 "web/profiles/gsb_public/modules/custom/gsb_migrate/composer.json",
@@ -3066,9 +3052,6 @@
             "drupal/redirect": {
                "1116408": "https://www.drupal.org/files/redirect-migrate-support-1116408-69.patch"
             },
-            "drupal/webform_addmore": {
-              "webform_addmore-js": "https://raw.githubusercontent.com/gsbitse/gsb-revamp-patches/master/webform_addmore-parent-js.patch"  
-            },
             "drupal/wysiwyg": {
               "397994": "https://www.drupal.org/files/issues/397994-d7-32.patch"  
             },
@@ -3077,9 +3060,6 @@
             },
             "markitup/markitup": {
               "WP-5186": "https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/WP-5186-jquery-markitup.js.patch"  
-            },
-            "drupal/google_appliance": {
-              "2626784": "https://www.drupal.org/files/issues/google_appliance-2626784-2.patch"
             },
             "drupal/advanced_menu": {
               "2125179": "https://drupal.org/files/issues/advanced_menu_patch-2125179-1.patch"  
