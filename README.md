@@ -17,9 +17,9 @@ brew cask install lando
 ```
 git clone git@github.com:gsb-public/composer-build.git
 ```
-* Edit composer/scripts/doimport.sh and doupdate.sh to match your specific setup
+* Edit composer-build/scripts/doimport.sh and doupdate.sh to match your specific setup
 
-* Edit php.ini found in the confd folder to match your specific setup
+* Edit .lando.yml to point your composer-build/confd folder. This has the php.ini file that lando will use for your site.
 
 * Create a new site directory
 * cd into the your new site directory
@@ -32,7 +32,7 @@ cd newsite
 * copy composer-build/.lando.yml into your new site directory
 
 ```
-cp ~/Desktop/composer/composer-build/.lando.yml .
+cp ~/Desktop/lando/composer-build/.lando.yml .
 ```
 
 * start lando
@@ -47,7 +47,7 @@ lando composer create-project drupal-composer/drupal-project:7.x-dev gsb --stabi
 
 ```
 cd gsb
-cp ~/Desktop/composer/composer-build/composer.json .
+cp ~/Desktop/lando/composer-build/composer.json .
 ```
 
 * edit composer.json
@@ -60,20 +60,20 @@ lando composer require
 * copy composer.json again
 
 ```
-cp ~/Desktop/composer/composer-build/composer.json .
+cp ~/Desktop/lando/composer-build/composer.json .
 lando composer require
 ```
 
 * run database import script (you'll need to edit this a bit to point to a downloaded tar file)
 
 ```
-sh ~/Desktop/composer/composer-build/scripts/doimport.sh
+sh ~/Desktop/lando/composer-build/scripts/doimport.sh
 ```
 
 * run the patch docroot script
 
 ```
-sh ~/Desktop/composer/composer-build/scripts/dopatchdoc.sh
+sh ~/Desktop/lando/composer-build/scripts/dopatchdoc.sh
 ```
 
 * edit settings.php
