@@ -17,8 +17,9 @@ brew cask install lando
 ```
 git clone git@github.com:gsb-public/composer-build.git
 ```
-
 * Edit composer/scripts/doimport.sh and doupdate.sh to match your specific setup
+
+* Edit php.ini found in the confd folder to match your specific setup
 
 * Create a new site directory
 * cd into the your new site directory
