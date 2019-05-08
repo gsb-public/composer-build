@@ -2804,6 +2804,7 @@
         "drupal/workbench_access": "1.5",
         "drupal/workbench_moderation": "3.0",
         "drupal/xmlsitemap": "2.5",
+        "drupal/xhprof": "1.x-dev",
         "drupal/youtube_api": "1.0-beta3",
         "drupal/zurb_responsive_tables": "dev-custom",
         "drush/drush": "^8.0",
