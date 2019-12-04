@@ -114,7 +114,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/resources.git",
-                   "reference": "6.02"
+                   "reference": "6.07"
                }
             }
         },
@@ -218,7 +218,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_box.git",
-                   "reference": "1.07"
+                   "reference": "1.09"
                }
             }
         },
@@ -283,7 +283,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_coveo_search.git",
-                   "reference": "1.02"
+                   "reference": "1.04"
                }
             }
         },
@@ -348,7 +348,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_dvent.git",
-                   "reference": "1.03"
+                   "reference": "1.04"
                }
             }
         },
@@ -491,7 +491,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_misc_fixes.git",
-                   "reference": "5.11"
+                   "reference": "5.13"
                }
             }
         },
@@ -530,7 +530,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_panels_pages.git",
-                   "reference": "4.02"
+                   "reference": "4.03"
                }
             }
         },
@@ -569,7 +569,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_resources.git",
-                   "reference": "6.0"
+                   "reference": "6.02"
                }
             }
         },
@@ -621,7 +621,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_social.git",
-                   "reference": "release-6.08"
+                   "reference": "release-6.09"
                }
             }
         },
@@ -842,7 +842,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_admission_event_display.git",
-                   "reference": "6.07"
+                   "reference": "6.08"
                }
             }
         },
@@ -855,7 +855,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_all_research_display.git",
-                   "reference": "6.03"
+                   "reference": "6.04"
                }
             }
         },
@@ -920,7 +920,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_alumni_reunion_group_page_display.git",
-                   "reference": "5.05"
+                   "reference": "5.06"
                }
             }
         },
@@ -959,7 +959,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_base_fields.git",
-                   "reference": "5.56"
+                   "reference": "5.60"
                }
             }
         },
@@ -1050,7 +1050,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_club_ct.git",
-                   "reference": "5.04"
+                   "reference": "5.05"
                }
             }
         },   
@@ -1220,7 +1220,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_faculty_ct.git",
-                   "reference": "5.31"
+                   "reference": "5.32"
                }
             }
         },
@@ -1285,7 +1285,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_file_types.git",
-                   "reference": "6.03"
+                   "reference": "6.06"
                }
             }
         },
@@ -1376,7 +1376,20 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_image_styles.git",
-                   "reference": "4.09"
+                   "reference": "4.10"
+               }
+            }
+        },
+        {
+           "type": "package",
+           "package": {
+               "name": "drupal/gsb_feature_infogram_fpp",
+               "version": "dev-features",
+               "type": "drupal-features-module",
+               "source": {
+                   "type": "git",
+                   "url": "git@github.com:gsb-public/gsb_feature_infogram_fpp.git",
+                   "reference": "1.01"
                }
             }
         },
@@ -1454,7 +1467,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_landing_viewport_fpp.git",
-                   "reference": "1.03"
+                   "reference": "1.07"
                }
             }
         },
@@ -1532,7 +1545,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_msx_fellows_ct.git",
-                   "reference": "6.03"
+                   "reference": "6.04"
                }
             }
         },
@@ -1545,7 +1558,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_msx_fellows_display.git",
-                   "reference": "6.04"
+                   "reference": "6.05"
                }
             }
         },
@@ -1675,7 +1688,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_program_ct.git",
-                   "reference": "6.34"
+                   "reference": "6.36"
                }
             }
         },
@@ -1714,7 +1727,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_program_finder_display.git",
-                   "reference": "1.27"
+                   "reference": "1.30"
                }
             }
         },
@@ -1727,7 +1740,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_program_instance_ct.git",
-                   "reference": "6.23"
+                   "reference": "6.24"
                }
             }
         },
@@ -1844,7 +1857,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_seed_coach_ct.git",
-                   "reference": "1.05"
+                   "reference": "1.06"
                }
             }
         },
@@ -2117,7 +2130,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_voices_ct.git",
-                   "reference": "release-1.07"
+                   "reference": "release-1.11"
                }
             }
         },
@@ -2130,7 +2143,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_feature_voices_display.git",
-                   "reference": "release-1.05"
+                   "reference": "release-1.07"
                }
             }
         },       
@@ -2143,7 +2156,7 @@
                "source": {
                    "type": "git",
                    "url": "git@github.com:gsb-public/gsb_theme.git",
-                   "reference": "release-6.58.1"
+                   "reference": "release-6.69"
                }
             }
         },       
@@ -2702,7 +2715,7 @@
         "drupal/gsb_panels_pages": "dev-custom",
         "drupal/gsb_public": "dev-custom",
         "drupal/gsb_public_brochure_list": "dev-custom",
-        "gsb/gsb_public_custom_blocks": "dev-release-6.35",
+        "gsb/gsb_public_custom_blocks": "dev-release-6.40",
         "drupal/gsb_public_statistics": "dev-custom",
         "drupal/gsb_resources": "dev-custom",
         "drupal/gsb_restricted_pages": "dev-custom",
