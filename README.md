@@ -125,6 +125,13 @@ mkdir temp
 
 ```
 vi profiles/gsb_public/modules/contrib/memcache/memcache_admin/memcache_admin.module
+
+The code should look like this when you're done.
+
+ 63     //if ($cluster = dmemcache_object_cluster($bin)) {
+ 64     if (true) {
+ 65       $name = $cluster['cluster'];
+ 66       $clusters[$name]['servers'][] = $server;
 ```
 
 * try running drush
