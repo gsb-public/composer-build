@@ -7,20 +7,7 @@ proxy:
   phpmyadmin: 
     - phpmyadmin.gsb6.lndo.site
 services:
-  appserver:
-    config:
-      conf: "/Users/gregmercer/Desktop/lando/service-test1/confd/php.ini"
   phpmyadmin:
     type: phpmyadmin
   database:
     type: mysql:5.7
-  pear-service:
-    type: php
-    build_as_root:
-      - apt-get install pear -y
-      - git clone "https://github.com/tideways/php-xhprof-extension.git"
-      - cd php-xhprof-extension
-      - phpize
-      - ./configure
-      - make
-      - make install
