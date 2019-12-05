@@ -2643,6 +2643,7 @@
         "drupal/gsb_feature_image_cta_fpp": "dev-features",
         "drupal/gsb_feature_image_fpp": "dev-features",
         "drupal/gsb_feature_image_styles": "dev-features",
+        "drupal/gsb_feature_infogram_fpp": "dev-features",
         "drupal/gsb_feature_insight_display": "dev-features",
         "drupal/gsb_feature_insights_quote_fpp": "dev-features",
         "drupal/gsb_feature_landing_viewport_fpp": "dev-features",
